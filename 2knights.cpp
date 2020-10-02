@@ -26,6 +26,7 @@ ll power(ll a, ll b){
     }
     return res;
 }
+// kitna padhti he itna mast github profile bna rakha kuch nhi btati gandi bachi!!!
 /*void bfs(ll s)
 {
        vis[s]=1;
