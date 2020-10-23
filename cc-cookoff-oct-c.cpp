@@ -84,7 +84,7 @@ signed main()
                 if(col[i]==0) col[i]=2;
                 cout<<col[i]<<" ";
          }
-         for(ll i=0;i<1000005;i++) vis[i]=0;
+         for(ll i=0;i<1000005;i++)  vis[i]=0;
          for(ll i=0;i<1000001;i++) col[i]=0;
          for(ll i=0;i<1000001;i++) g[i].clear();
          cout<<"\n";
