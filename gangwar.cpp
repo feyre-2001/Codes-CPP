@@ -100,7 +100,7 @@ void solve(){
         for(ll i=1;i<=n;i++) {
             if(vis2[i]==0){
                 ans=dfs2(i,0);
-               // cout<<i<<" ";
+               // /cout<<i<<" ";
                // cout<<ans<<" ";
                 if(ans==0)break;
             }
