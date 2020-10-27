@@ -67,7 +67,6 @@ int32_t main()
 	}
 	for(int i = 2; i <= n; ++i)
 	{
- 
 	}
 	top_sort();
 	cout << cnt[n];
