@@ -61,7 +61,7 @@ void dfs(ll i, ll j)
 {
        vis[i][j]=true;
        
-       if(isValid(i-1,j)) dfs(i-1, j);
+       if(isValid(i-1,j))  dfs(i-1, j);
        if(isValid(i+1,j)) dfs(i+1, j);
        if(isValid(i,j-1)) dfs(i, j-1);
        if(isValid(i,j+1)) dfs(i, j+1);
